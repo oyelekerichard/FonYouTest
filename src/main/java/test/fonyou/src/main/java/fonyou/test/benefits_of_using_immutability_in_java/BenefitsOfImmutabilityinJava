@@ -1,0 +1,13 @@
+1. References to immutable objects can be cached as they are not going to change. (i.e. in Hashing it provide fast operations).
+
+2. An immutable object remains in exactly one state, the state in which it was created. Therefore, immutable object is thread-safe so there is no synchronization issue. They cannot be corrupted by multiple threads accessing them concurrently. This is far and away the easiest approach to achieving thread safety.
+
+3. Immutable classes are easier to design, implement, and use than mutable classes.
+
+4. Immutable objects are good Map keys and Set elements, since these typically do not change once created.
+
+5. Immutability makes it easier to write, use and reason about the code (class invariant is established once and then unchanged).
+
+6. Immutability makes it easier to parallelize program as there are no conflicts among objects.
+
+7. The internal state of program will be consistent even if you have exceptions.
