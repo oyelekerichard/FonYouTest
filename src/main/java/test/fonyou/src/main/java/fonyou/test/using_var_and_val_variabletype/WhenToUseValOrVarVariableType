@@ -1,0 +1,7 @@
+var - for mutable local variables. 
+
+1.  var requires less typing. It's shorter and sometimes easier to read 
+2. var requires less code changes if a return-type of a method call changes. You only have to change the method call, but not every place it's used.
+3. var encourages a more descriptive name for variables. I.e. var customer = new Customer(); rather than var c = new Customer();.
+
+val - for final (immutable) local variables.
