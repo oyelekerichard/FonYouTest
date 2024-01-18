@@ -4,7 +4,7 @@ import java.util.List;
 
 public class CreatingListInJava9 {
 
-    public static void runFromHere()  {
+    public static void main(String[] args)  {
 
 //        initialize a string list which contains color names
         List<String> colours = List.of("Red", "Black", "Yellow", "Pink", "Orange");

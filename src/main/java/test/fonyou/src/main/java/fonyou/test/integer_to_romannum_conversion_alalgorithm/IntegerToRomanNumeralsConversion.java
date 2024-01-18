@@ -3,7 +3,8 @@ package fonyou.test.integer_to_romannum_conversion_alalgorithm;
 import java.util.Scanner;
 public class IntegerToRomanNumeralsConversion {
 
-    public static void runFromHere() {
+    public static void main(String[] args)  {
+
         Scanner inputfromKeyboard = new Scanner(System.in);
 
         System.out.println("ENTER THE INTEGER VALUE YOU WANT TO CONVERT TO ROMAN NUMERALS :: ");

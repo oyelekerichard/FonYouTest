@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class DateComparison {
 
-    public static void runFromHere()  {
+    public static void main(String[] args)  {
         Scanner sc = new Scanner(System.in);
         System.out.println("INPUT FIRST DATE :: ");
 

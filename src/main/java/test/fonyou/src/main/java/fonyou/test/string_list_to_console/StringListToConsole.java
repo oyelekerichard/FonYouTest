@@ -5,7 +5,7 @@ import java.util.List;
 
 public class StringListToConsole {
 
-    public static void runFromHere()  {
+    public static void main(String[] args)  {
 //        Given the following list, write the content of it to the console. List<String> colours;
 
 //        declare an empty list and initialize it as an arraylist
